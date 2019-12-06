@@ -1,0 +1,36 @@
+<idea-plugin>
+  <id>com.your.company.unique.plugin.id</id>
+  <name>coofun</name>
+  <version>1.0</version>
+  <vendor email="chenxl@9hbank.com" url="https://github.com/beihuagit/coofun.git">9hbank</vendor>
+
+
+  <description><![CDATA[
+      一个常用的Java工具类集合插件，方便你的查询。<br>
+      GitHub: https://github.com/beihuagit/coofun<br>
+
+      作者: chen_xl
+    ]]></description>
+
+  <change-notes><![CDATA[
+      1. 更新一些代码。
+      2. 修复了对最新的JDK1.8的支持。
+      3. 更新了项目。
+]]></change-notes>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+  <idea-version since-build="173.0"/>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+       on how to target different products -->
+  <depends>com.intellij.modules.platform</depends>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <!-- Add your extensions here -->
+  </extensions>
+
+  <actions>
+    <!-- Add your actions here -->
+  </actions>
+
+</idea-plugin>
